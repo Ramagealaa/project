@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="images/weathericon.jfif">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="Css/contact.css">
+</head>
+<body>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/image1 (1).png" alt="Logo"> Weather
+            </a>
+            <div class="navbar-tagline">
+                <small>Tagline goes here</small>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Live Cameras</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Photos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container contact-container">
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="Index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+        </nav>
+
+        <div class="row">
+            <!-- Contact Information -->
+         <!-- Contact Information -->
+<div class="col-md-6 contact-info">
+    <h5>Company Name INC.</h5>
+    <p>2803 Avenue Street, Los Angeles</p>
+    <p><i class="fas fa-phone-alt"></i> +1 800 314 235</p>
+    <p><i class="fas fa-envelope"></i> contact@companyname.com</p>
+    
+    <!-- Embedded Google Map -->
+    <div style="margin-top: 20px; border-radius: 10px; overflow: hidden;">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345095633!2d-122.41941548468217!3d37.77492977975951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085814d4db1c4f3%3A0x42973f70df891d4!2s2803%20Avenue%20St%2C%20Los%20Angeles%2C%20CA%2090074%2C%20USA!5e0!3m2!1sen!2s!4v1615826732430!5m2!1sen!2s" 
+            width="100%" 
+            height="200" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+</div>
+
+
+            <!-- Contact Form -->
+            <div class="col-md-6 contact-form">
+                <h5>Contact Us </h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus quaerat, incidunt sunt iste quisquam totam aliquam similique alias excepturi eaque tempore maxime eveniet, dicta fugit officiis delectus quis rerum consequuntur.</p>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Your name...">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" placeholder="Email Address...">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Company name...">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="url" class="form-control" placeholder="Website...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4" placeholder="Message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Subscribe to updates:</p>
+            <form class="d-flex justify-content-center align-items-center">
+                <input type="text" class="form-control" placeholder="Enter city name..." aria-label="Search">
+                <button class="btn btn-primary ml-2">Search</button>
+            </form>
+            <div class="social-icons mt-3">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="mt-3">&copy; 2024 Weather App. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+  body {
+    background-color: #1e1e2f;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1e1e2f;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-tagline {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: 50px;
+    position: relative;
+    right: 110px;
+}
+
+.navbar-toggler:hover, .navbar-nav .nav-link:hover {
+    color: #009ad8;
+    border: 2px solid #009ad8;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 154, 216, 0.5);
+}
+
+/* Banner */
+.banner {
+  background-image: url('../images/banner.png'); /* Replace with your banner image */
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  min-height: 350px;
+  text-align: center;
+  position: relative;
+  margin-top: 50px; 
+}
+
+.banner .search-bar {
+  margin-top: 50px; /* Adds space between the title and the search bar */
+  display: inline-block; /* Centers the search bar within the banner */
+  background-color: #2e2e3e;
+  border-radius: 15px;
+  padding: 15px;
+  width: 50%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar input {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: #007bff;
+  border: none;
+}
+
+
+
+/* Cards */
+.card {
+    background-color: #2e2e3e;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    font-size: 1.8rem;
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+.card h5 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #ddd;
+}
+
+.card h3 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: #009ad8;
+}
+
+.card i {
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #bbb;
+    margin-bottom: 15px;
+}
+
+.card .details {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.card .details span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #262936;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.footer form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.footer input {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  width: 60%;
+}
+
+.footer button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.footer button:hover {
+  background-color: #0056b3;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icon {
+  font-size: 20px;
+  color: #fff;
+  margin: 0 15px;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #009ad8;
+}
